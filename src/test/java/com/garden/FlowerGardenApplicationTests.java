@@ -1,4 +1,4 @@
-package com.garden.FlowerGarden;
+package com.garden;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
