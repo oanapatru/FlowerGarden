@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "pg2.username",
+    "type": "java.lang.String",
+    "description": "A description for 'pg2.username'"
+  },
+  {
+    "name": "pg2.dburl",
+    "type": "java.lang.String",
+    "description": "A description for 'pg2.dburl'"
+  },
+  {
+    "name": "pg2.password",
+    "type": "java.lang.String",
+    "description": "A description for 'pg2.password'"
+  }
+]}

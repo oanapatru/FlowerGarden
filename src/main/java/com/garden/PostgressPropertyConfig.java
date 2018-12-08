@@ -1,13 +1,13 @@
 package com.garden;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
-import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@PropertySource("classpath:database.properties")
+// @PropertySource("classpath:database.properties")
+// can use @PropertySources({
+// @PropertySource("classpath:database.properties"),
+// @PropertySource("classpath:jms.properties")})
 public class PostgressPropertyConfig {
 	@Value("${pg2.username}")
 	private String userName;
@@ -18,9 +18,10 @@ public class PostgressPropertyConfig {
 	@Value("${pg2.dburl}")
 	private String dburl;
 
-	@Bean
-	public static PropertySourcesPlaceholderConfigurer properties() {
-		PropertySourcesPlaceholderConfigurer configurer = new PropertySourcesPlaceholderConfigurer();
-		return configurer;
-	}
+//	needed only if different properties file then application.properties
+//	@Bean
+//	public static PropertySourcesPlaceholderConfigurer properties() {
+//		PropertySourcesPlaceholderConfigurer configurer = new PropertySourcesPlaceholderConfigurer();
+//		return configurer;
+//	}
 }

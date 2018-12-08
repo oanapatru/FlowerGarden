@@ -1,0 +1,9 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      
+pg2:
+  username: aaa
+  password: bbb
+  dburl: ccc

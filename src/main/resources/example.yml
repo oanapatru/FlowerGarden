@@ -1,0 +1,32 @@
+
+name: John
+
+names: #Comment
+  - John
+  - Paul
+  - Bill
+  
+pound_sign: "#"
+
+book:
+  author: Joe
+  
+truth: yes
+another_truth: True
+more_true: true
+false: no #No, false, FALSE
+
+string_val: "This is it's quote"
+colon_string: "My courses: one two three"
+
+include_newline: |
+  aaa aaa
+  bbb bbb bbb
+  ccc
+  
+ignore_new_lines: >
+  this is
+  just one long
+  string
+  
+
